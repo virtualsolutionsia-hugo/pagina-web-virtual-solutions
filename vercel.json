@@ -1,5 +1,11 @@
 {
   "buildCommand": "",
   "framework": "html",
-  "public": "."
+  "public": ".",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
 }
